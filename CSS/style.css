@@ -210,9 +210,13 @@ body {
     gap: 32px; 
 }
 
+.about-blocks__left,
+.about-blocks__right {
+    flex-basis: 50%;
+}
+
 .about-blocks__item-big {
-    width: 868px;
-    height: 622px;
+    min-height: 622px;
     display: flex;
     align-items: flex-end;
     border-radius: 32px;
@@ -223,9 +227,11 @@ body {
 }
 
 .item-big__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     border-radius: 32px;
     padding: 50px;
-    fill: rgba(0, 0, 0, 0.5);
 }
 
 .item-big__descr {
@@ -234,5 +240,14 @@ body {
     line-height: 200%;
     color: #fff;
     max-width: 433px;
-    display: none;
+}
+
+
+.item-big__btn {
+    border: 3px solid #f90;
+    font-size: 16px;
+    min-width: 175px;
+    padding: 20px 0;
+    background-color: transparent;
+
 }
