@@ -233,6 +233,7 @@ body {
     align-items: center;
     border-radius: 32px;
     padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .item-big__descr {
@@ -250,4 +251,8 @@ body {
     min-width: 175px;
     padding: 20px 0;
     background-color: transparent;
+}
+
+.about-blocks__item {
+
 }
