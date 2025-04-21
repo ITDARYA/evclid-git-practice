@@ -230,6 +230,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-radius: 32px;
     padding: 50px;
 }
@@ -249,5 +250,4 @@ body {
     min-width: 175px;
     padding: 20px 0;
     background-color: transparent;
-
 }
