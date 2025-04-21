@@ -210,11 +210,28 @@ body {
     gap: 32px; 
 }
 
-/* stages */
+.about-blocks__item-big {
+    width: 868px;
+    height: 622px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 32px;
+    background-image: url('../img/about-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-.stages {
+.item-big__content {
+    border-radius: 32px;
+    padding: 50px;
+    fill: rgba(0, 0, 0, 0.5);
+}
 
-    .stages__title {
-        margin-bottom: 32px;
-    }
+.item-big__descr {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 200%;
+    color: #fff;
+    max-width: 433px;
 }
