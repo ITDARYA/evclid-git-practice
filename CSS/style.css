@@ -209,3 +209,12 @@ body {
     display: flex;
     gap: 32px; 
 }
+
+/* stages */
+
+.stages {
+
+    .stages__title {
+        margin-bottom: 32px;
+    }
+}
