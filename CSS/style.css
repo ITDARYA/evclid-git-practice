@@ -84,7 +84,7 @@ body {
 .btn-reset {
     padding: 0;
     border: none;
-    border-color: transparent;
+    background-color: transparent;
     cursor: pointer;
 }
 
@@ -194,6 +194,10 @@ body {
 
 /* about */
 
+.about {
+    margin-bottom: 100px;
+}
+
 .about__title {
     margin: 0;
     margin-bottom: 20px;
@@ -217,6 +221,7 @@ body {
 
 .about-blocks__item-big {
     min-height: 622px;
+    height: 100%;
     display: flex;
     align-items: flex-end;
     border-radius: 32px;
@@ -237,6 +242,7 @@ body {
 }
 
 .item-big__descr {
+    margin: 0;
     font-weight: 700;
     font-size: 16px;
     line-height: 200%;
@@ -253,6 +259,89 @@ body {
     background-color: transparent;
 }
 
-.about-blocks__item {
+.about-blocks__right {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
+.about-blocks__item {
+    border: 1px solid #cacaca;
+    border-radius: 32px;
+    background-color: #fff;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 300px;
+    background-image: url('../img/about-1.jpg');
+    background-repeat: no-repeat;
+    background-position: 60px 65px;
+    background-size: 190px 165px;
+}
+
+.item__title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.item__text {
+    margin: 0;
+    max-width: 450px;
+}
+
+/* stages */ 
+
+.stages {
+    margin-bottom: 15px;
+}
+
+.stages__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stages__text-title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    color: #000;
+}
+
+.stages__text {
+    margin: 0;
+    margin-bottom: 18px;
+    max-width: 758px;
+
+}
+
+.stages__right img {
+    display: block;
+    object-fit: cover;
+    min-width: 870px;
+
+}
+
+.stages__btn {
+    display: inline-block;
+    margin-right: 32px;
+    min-width: 175px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.stages__btn_bordered {
+    display: inline-block;
+    border: 1px solid #000;
+    min-width: 147px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
 }
